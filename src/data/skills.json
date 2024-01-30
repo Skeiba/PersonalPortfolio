@@ -1,0 +1,46 @@
+[
+    {
+        "title":"HTML",
+        "imageSrc": "skills/html.png"
+    },
+    {
+        "title":"CSS",
+        "imageSrc": "skills/css.png"
+    },
+    {
+        "title":"React Js",
+        "imageSrc": "skills/react.png"
+    },
+    {
+        "title":"JavaScript",
+        "imageSrc": "skills/javaScript.png"
+    },
+    {
+        "title":"Java",
+        "imageSrc": "skills/java.png"
+    },
+    {
+        "title":"MySQL",
+        "imageSrc": "skills/mysql.png"
+    },
+    {
+        "title":"MongoDB",
+        "imageSrc": "skills/nosql.png"
+    },
+    {
+        "title":"PHP",
+        "imageSrc": "skills/php.png"
+    },
+    {
+        "title":"Excel",
+        "imageSrc": "skills/excel.png"
+    },
+    {
+        "title":"Word",
+        "imageSrc": "skills/word.png"
+    },
+    {
+        "title":"PowerPoint",
+        "imageSrc": "skills/ppt.png"
+    }
+]

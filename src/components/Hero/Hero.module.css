@@ -1,0 +1,129 @@
+@import "../../variables.css";
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+.title{
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 33px;
+    font-family: var(--font-montserrat);
+    color: var(--color-text);
+}
+
+.description{
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--color-text);
+    font-family: var(--font-montserrat);
+    margin-bottom: 52px;
+    max-width: 800px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.button{
+    text-decoration: none;
+    background-color: var(--color-secondary);
+    color: var(--color-text-secondary);
+    font-family: var(--font-poppins);
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 17px 26px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+    background-color: var(--color-dark);
+    transition: .5s ease-in-out;
+}
+
+.heroImg{
+    width: 500px;
+    border-radius: 100%;
+    z-index: 1;
+    /* animation  */
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating{
+    0%{
+        transform: translate(0, 0px);
+    }
+    50%{
+        transform: translate(0, 10px);
+    }
+    100%{
+        transform: translate(0, -0px);
+    }
+}
+
+.topBlur{
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 350px;
+    top: -128px;
+    left: 10vw;
+    border-radius: 760px;
+    background: rgba(47, 224, 247, 0.945);
+    filter: blur(200px);
+    z-index: 0;
+}
+.bottomBlur{
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 250px;
+    top: 246px;
+    right: -25vw;
+    border-radius: 760px;
+    background: rgba(47, 224, 247, 0.76);
+    filter: blur(200px);
+    z-index: 0;
+}
+
+@media screen and (max-width: 830px) {
+    .heroImg{
+        width: 300px;
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+    .content{
+        align-items: center;
+    }
+    .title{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 60px;
+    }
+    .description{
+        font-size: 25px;
+    }
+}

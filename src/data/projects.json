@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Personal portfolio website",
+        "imageSrc": "projects/ppw.png",
+        "description": " A personal portfolio website showcasing my skills, project and information. It serves as a professional online presence to highlight my work and achievements.",
+        "skills": ["React", "JavaScript", "HTML", "CSS"],
+        "demo": "",
+        "source": "https://github.com/Skeiba/PersonalPortfolio"
+    },
+    {
+        "title": "ToDo List",
+        "imageSrc": "projects/tdl.png",
+        "description": "A task management application allowing users to create, update, and delete tasks. It helps users stay organized by providing a simple and efficient way to manage their to-do lists.",
+        "skills": ["React", "JavaScript", "HTML", "CSS"],
+        "demo": "",
+        "source": ""
+    },
+    {
+        "title": "Pomodoro Timer",
+        "imageSrc": "projects/pt.png",
+        "description": "A productivity tool based on the Pomodoro Technique, featuring a timer for focused work intervals followed by short breaks. It aids in time management and increased productivity during work sessions.",
+        "skills": ["JavaScript", "HTML", "CSS"],
+        "demo": "",
+        "source": ""
+    }
+]

@@ -1,0 +1,75 @@
+@import "../../variables.css";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(0, 238, 255, 0.363) 0%, rgba(44, 130, 228, 0.507) 100%);
+    box-shadow: 0 16px 14px 0 rgba(0, 0, 0, 0.521);
+    padding: 18px 24px;
+    max-width: 345px;
+}
+
+.image{
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.329);
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.title{
+    font-family: var(--font-poppins);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.description{
+    font-family: var(--font-poppins);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.skills{
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
+
+.skill{
+    font-family: var(--font-poppins);
+    font-size: 20px;
+    border-radius: 100px;
+    background: var(--color-dark);
+    color: var(--color-text-secondary);
+    padding: 2px 20px;
+}
+
+.skill:hover{
+    transition: 0.5s;
+    background: var(--color-primary);
+}
+.links{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link{
+    font-family: var(--font-poppins);
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 100px;
+    background: var(--color-primary);
+    padding: 2px 20px;
+}
+
+.link:hover{
+    transition: 0.5s;
+    background: var(--color-dark);
+}
