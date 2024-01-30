@@ -99,6 +99,12 @@
         font-size: 15px;
     }
     .summary{
-        font-size: 15px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .educationItem{
+        flex-direction: column;
     }
 }
