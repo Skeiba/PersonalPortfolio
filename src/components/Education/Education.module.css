@@ -70,8 +70,14 @@
 .educationItem:hover{
     background-size: 100% 100%;
 }
+@media screen and (max-width: 1200px) {
+    .educationItems{
+        font-size: 15px;
+        gap: 20px;
+    }
+}
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 890px) {
     .container{
         background-color: transparent;
         padding-left: 0;
@@ -85,5 +91,14 @@
     }
     .educationItems{
         margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .educationItems{
+        font-size: 15px;
+    }
+    .summary{
+        font-size: 15px;
     }
 }

@@ -108,9 +108,88 @@
     z-index: 0;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1600px){
+    .heroImg{
+        width: 400px;
+    }
+    .title{
+        margin-top: 30px;
+        font-size: 60px;
+    }
+    .description{
+        max-width: 750px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .heroImg{
+        width: 350px;
+    }
+    .title{
+        margin-top: 30px;
+        font-size: 50px;
+    }
+    .description{
+        max-width: 700px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1100px){
     .heroImg{
         width: 300px;
+    }
+    .title{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .description{
+        max-width: 700px;
+        font-size: 25px;
+    }
+    .button{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .heroImg{
+        width: 300px;
+    }
+    .title{
+        margin-top: 30px;
+        font-size: 35px;
+    }
+    .description{
+        max-width: 400px;
+        font-size: 20px;
+    }
+    .button{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .heroImg{
+        width: 250px;
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+    .title{
+        margin-top: 30px;
+        font-size: 35px;
+    }
+    .description{
+        max-width: 500px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .heroImg{
+        width: 200px;
     }
     .container{
         flex-direction: column-reverse;
@@ -121,9 +200,9 @@
     .title{
         margin-top: 30px;
         text-align: center;
-        font-size: 60px;
+        font-size: 25px;
     }
     .description{
-        font-size: 25px;
+        font-size: 20px;
     }
 }
