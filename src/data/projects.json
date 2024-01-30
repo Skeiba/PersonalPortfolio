@@ -11,7 +11,7 @@
         "title": "ToDo List",
         "imageSrc": "projects/tdl.png",
         "description": "A task management application allowing users to create, update, and delete tasks. It helps users stay organized by providing a simple and efficient way to manage their to-do lists.",
-        "skills": ["React", "JavaScript", "HTML", "CSS"],
+        "skills": ["React", "JavaScript", "HTML", "CSS", "MongoDB"],
         "demo": "",
         "source": ""
     },
