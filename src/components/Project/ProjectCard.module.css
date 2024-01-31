@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    background: linear-gradient(180deg, rgba(0, 238, 255, 0.363) 0%, rgba(44, 130, 228, 0.507) 100%);
+    background: linear-gradient(180deg, rgba(0, 94, 255, 0.47) 0%, rgba(131, 186, 249, 0.19) 100%);
     box-shadow: 0 16px 14px 0 rgba(0, 0, 0, 0.521);
     padding: 18px 24px;
     max-width: 345px;
@@ -43,14 +43,14 @@
     font-family: var(--font-poppins);
     font-size: 20px;
     border-radius: 100px;
-    background: var(--color-dark);
+    background: var(--color-primary);
     color: var(--color-text-secondary);
     padding: 2px 20px;
 }
 
 .skill:hover{
     transition: 0.5s;
-    background: var(--color-primary);
+    background: var(--color-secondary);
 }
 .links{
     width: 100%;
@@ -65,11 +65,11 @@
     text-decoration: none;
     font-size: 30px;
     border-radius: 100px;
-    background: var(--color-primary);
+    background: var(--color-secondary);
     padding: 2px 20px;
 }
 
 .link:hover{
     transition: 0.5s;
-    background: var(--color-dark);
+    background: var(--color-primary);
 }

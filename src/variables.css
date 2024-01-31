@@ -3,14 +3,16 @@
 
 
 :root{
-    --color-text: #1B262C;
-    --color-text-secondary: #EEEEEE;
-    --color-primary: #0F4C75;
-    --color-secondary: rgb(50, 130, 184);
-    --color-dark: #1d1d1d;
-    --color-background: #BBE1FA;
-    --color-transparent: rgba(255, 255, 255, 0.5);
-
+    /* Colors */
+        /* text */
+    --color-text: black;
+    --color-text-secondary: white;
+        /* backgrounds & borders */
+    --color-primary: #2183f3;
+    --color-secondary: #649ff6;
+    --color-background: #dddddd;
+    --color-transparent: rgba(255, 255, 255, 0.505);
+    /* Fonts */
     --font-poppins: 'Poppins', sans-serif;
     --font-montserrat: 'Montserrat', sans-serif;
 }
