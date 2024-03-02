@@ -16,9 +16,9 @@
         "source": ""
     },
     {
-        "title": "Pomodoro Timer",
-        "imageSrc": "projects/pt.png",
-        "description": "A productivity tool based on the Pomodoro Technique, featuring a timer for focused work intervals followed by short breaks. It aids in time management and increased productivity during work sessions.",
+        "title": "Focus Timer",
+        "imageSrc": "projects/timer.png",
+        "description": "A productivity tool based on the Pomodoro Technique, featuring a timer for focused work intervals. It aids in time management and increased productivity during work sessions.",
         "skills": ["JavaScript", "HTML", "CSS"],
         "demo": "",
         "source": ""
