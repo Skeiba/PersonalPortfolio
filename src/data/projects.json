@@ -20,7 +20,7 @@
         "imageSrc": "projects/timer.png",
         "description": "A productivity tool based on the Pomodoro Technique, featuring a timer for focused work intervals. It aids in time management and increased productivity during work sessions.",
         "skills": ["JavaScript", "HTML", "CSS"],
-        "demo": "",
-        "source": ""
+        "demo": "https://gdntimer.netlify.app/",
+        "source": "https://github.com/Skeiba/FocusTimer"
     }
 ]
