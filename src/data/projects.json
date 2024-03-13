@@ -1,11 +1,11 @@
 [
     {
-        "title": "ToDo List",
-        "imageSrc": "projects/tdl.png",
-        "description": "A task management application allowing users to create, update, and delete tasks. It helps users stay organized by providing a simple and efficient way to manage their to-do lists.",
-        "skills": ["React", "JavaScript", "HTML", "CSS", "MongoDB"],
-        "demo": "",
-        "source": ""
+        "title": "Password Manager",
+        "imageSrc": "projects/pmg.png",
+        "description": "A password generator website, provides a simple yet powerful tool for creating strong and secure passwords. With customizable options, users can effortlessly generate unique passwords tailored to their needs.",
+        "skills": ["JavaScript", "HTML", "CSS"],
+        "demo": "https://gdnpasswordgenerator.netlify.app/",
+        "source": "https://github.com/Skeiba/password-generator"
     },
     {
         "title": "Focus Timer",
